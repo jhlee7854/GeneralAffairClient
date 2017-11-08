@@ -1,0 +1,8 @@
+.mat-drawer {
+  position: fixed;
+  margin-top: 65px;
+}
+
+.mat-sidenav {
+  width: 240px;
+}

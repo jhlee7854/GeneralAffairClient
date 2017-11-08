@@ -1,0 +1,30 @@
+<div class="login-content">
+  <div class="login-title">
+    <h3>총무지원시스템 로그인</h3>
+  </div>
+  <mat-card class="login-card">
+    <mat-card-content>
+      <form>
+        <p>아이디와 패스워드를 입력해 주세요.</p>
+        <mat-input-container class="full-width-input">
+          <input matInput placeholder="User" required>
+          <mat-error>
+            Please inform your user name
+          </mat-error>
+        </mat-input-container>
+        <mat-input-container class="full-width-input">
+          <input matInput type="password" placeholder="Password" required>
+          <mat-error>
+            Please inform your password
+          </mat-error>
+        </mat-input-container>
+        <button mat-raised-button color="primary" (click)="login()">로그인</button>
+        <button mat-button>사용자 등록</button>
+        <button mat-button>비밀번호 찾기</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  <footer>
+    © {{thisYear}} SK C&C All rights reserved.
+  </footer>
+</div>
